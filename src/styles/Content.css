@@ -1,0 +1,417 @@
+/* .font{
+    background-image: url('../images/font-blue.jpg');
+} */
+
+.color-d{
+    background-color: #0d1112;
+    padding: 3%;
+}
+
+.bg-color{
+    background-color: #B993D6;
+}
+
+.height-project{
+    height: 25vh;
+}
+
+.projects, .information{
+    margin-top: -7%;
+}
+
+.height-btn{
+    height: 25vh;
+}
+
+.btn-page{    
+    /* padding: 1%; */
+    border: 10px solid #db3545;
+    background-color: #db3545;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px grey;    
+}
+
+.btn-page:hover{
+    background-color: #c32534;
+}
+
+.line-hr{
+    height: 10vh;
+    background-color: #0d1112;
+}
+
+.margin-contact{
+    margin-top: 5.5%;
+}
+
+.title{
+    width: 70vw;
+    height: 111vh;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.title .texto{
+    font-size: 3rem;
+}
+
+.texto {
+    color: #fff;
+}
+
+.img-profile{
+    max-width: 13%;
+    width: 24vh;
+    position: absolute;
+    left: 43.5%;
+    z-index: 99;
+    margin-top: 2%; 
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+
+
+/* -----------------icons -------------------*/
+.icons-contact{
+    margin-top: 4%;
+}
+
+svg{
+    transform: scale(1.5);
+}
+
+/* -----------------icons -------------------*/
+
+/*---------- ----------Animation------------------------- -------*/
+
+.hidden{
+    display: none;
+}
+
+.about, .contact{
+    animation-name: move;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.about div h1, .contact div h1{
+    font-size: 5rem
+}
+
+#navbarNav{
+    display: flex;
+    width: 30vh
+}
+
+#navbarNav ul{
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.visible {
+    padding: 1%;
+    padding-top: 8%;
+    width: 100%;
+    z-index: 3;
+    animation-name: visible;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.visible .txt {
+    width: 40vw;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.visible .txt p {
+    font-size: 2rem;
+    padding-left: 10px;
+    color: black;
+}
+
+.visible .img{
+    border: 20px solid black;
+    border-radius: 3%;
+}
+
+.visible .img img {
+    width: 45vw;
+}
+
+.visible .img-calculator{
+    border: 20px solid black;
+    border-radius: 3%;
+    width: 59%;
+    margin: auto;
+}
+
+.visible .img-calculator img{
+    width: 26vw;
+}
+
+.visible .img-pomodoro{
+    border: 20px solid black;
+    border-radius: 3%;
+}
+
+.visible .img-pomodoro img{
+    width: 46vw;
+}
+
+@keyframes visible {
+    0% {
+      opacity: 0.5;
+      transform: translateX(-200px);
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+}
+
+@keyframes move {
+    0% {
+      opacity: 0.5;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-80px);
+    }
+}
+
+
+
+
+/*---------- ----------Animation------------------------- -------*/
+
+
+@media only screen and (min-width:320px) and (max-width:375px){
+
+    .projects{
+        margin-top: -19%;
+    }
+
+    .icons-contact{
+        justify-content: space-around;
+    }
+
+    .margin-contact{
+        margin-top: 23%;
+    }
+
+    .visible .img{
+        height: 32vh;
+    }
+
+    .visible .img img {
+        width: 90vw;
+    }
+
+    .visible .img-pomodoro img{
+        width: 88vw;
+        height: 34vh;
+    }
+
+    .visible .img-calculator{
+        width: 71%;
+        height: 40vh;
+    }
+
+    .visible .img-calculator img {
+        height: 34vh;
+        width: 59vw;
+    }
+
+    .btn-page{
+        text-align: center;
+    }
+
+    .information {
+        margin-top: -21%;
+    }
+
+    .img-profile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:376px) and (max-width:425px){
+
+    .projects{
+        margin-top: -19%;
+    }
+
+    .icons-contact{
+        justify-content: space-around;
+    }
+
+    .margin-contact{
+        margin-top: 21%;
+    }
+
+    .visible .img{
+        height: 35vh;
+    }
+
+    .visible .img img {
+        width: 90vw;
+    }
+
+    .visible .img-pomodoro img{
+        width: 89vw;
+        height: 34vh;
+    }
+
+    .visible .img-calculator{
+        width: 71%;
+        height: 40vh;
+    }
+
+    .visible .img-calculator img {
+        height: 34vh;
+        width: 60vw;
+    }
+
+    .btn-page{
+        text-align: center;
+    }
+
+    .projects, .information {
+        margin-top: -19%;
+    }
+
+    .img-profile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:769px){
+
+    .bg-dark{
+        margin-top: -11%;
+    }
+
+    .visible .img {
+        height: 46vh;
+    }
+
+    .visible .img img {
+        height: 41vh;
+    }
+
+    .visible .img-pomodoro {
+        height: 36vh;
+        margin-top: 10%;
+    }
+
+    .icons-contact{
+        justify-content: space-around;
+    }
+
+    .margin-contact{
+        margin-top: 11%;
+    }
+
+    .information {
+        margin-top: -10%;
+    }
+
+    .img-profile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:770px) and (max-width:1025px){
+
+    .height-project{    
+        margin-top: -8%;
+    }
+
+    .text-dark{
+        text-align: center;
+
+    }
+
+    .icons-contact{
+        justify-content: space-around;
+    }
+
+    /* .img-profile{
+        width: 21vh;
+        position: absolute;
+        left: 82%;
+        z-index: 99;
+        top: 4%;  
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    } */
+}
+
+@media only screen and (min-width:1026px) and (max-width:1438px){
+
+    .height-project{    
+        margin-top: -8%;
+    }
+
+    .text-dark{
+        text-align: center;
+
+    }
+
+    .icons-contact{
+        justify-content: space-around;
+    }
+
+    /* .img-profile{
+        width: 23vh;
+        position: absolute;
+        left: 86%;
+        z-index: 99;
+        top: 4%;  
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    } */
+}
+
+@media only screen and (min-width:1439px){
+
+    .height-project{    
+        margin-top: 1%;
+    }
+
+    .margin-contact{
+        margin-top: 6%;
+    }
+
+    .text-dark{
+        text-align: center;
+
+    }
+
+    .icons-contact{
+        justify-content: space-around;
+    }
+
+    /* .img-profile{
+        width: 27vh;
+        position: absolute;
+        left: 84%;
+        z-index: 99;
+        top: 4%;    
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    } */
+}
