@@ -4,7 +4,7 @@
 
 .color-d{
     background-color: #0d1112;
-    padding: 3%;
+    padding: 1%;
 }
 
 .bg-color{
@@ -15,8 +15,12 @@
     height: 25vh;
 }
 
-.projects, .information{
-    margin-top: -7%;
+.projects{
+    margin-top: -8%;
+}
+
+.information{
+    margin-top: -6%;
 }
 
 .height-btn{
@@ -108,7 +112,7 @@ svg{
 }
 
 #navbarNav ul{
-    width: 60%;
+    width: 90%;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -144,7 +148,7 @@ svg{
 }
 
 .visible .img img {
-    width: 45vw;
+    width: 47vw;
 }
 
 .visible .img-calculator{
@@ -155,7 +159,7 @@ svg{
 }
 
 .visible .img-calculator img{
-    width: 26vw;
+    width: 27vw;
 }
 
 .visible .img-pomodoro{
@@ -164,7 +168,7 @@ svg{
 }
 
 .visible .img-pomodoro img{
-    width: 46vw;
+    width: 47vw;
 }
 
 @keyframes visible {
@@ -215,8 +219,9 @@ svg{
         margin-top: 23%;
     }
 
-    .visible .img{
-        height: 32vh;
+    .text-dark{
+        text-align: center;
+
     }
 
     .visible .img img {
@@ -265,8 +270,9 @@ svg{
         margin-top: 21%;
     }
 
-    .visible .img{
-        height: 35vh;
+    .text-dark{
+        text-align: center;
+
     }
 
     .visible .img img {
@@ -307,33 +313,54 @@ svg{
         margin-top: -11%;
     }
 
+    .projects {
+        margin-top: -17%;
+    }
+
     .visible .img {
         height: 46vh;
     }
 
     .visible .img img {
         height: 41vh;
+        width: 90vw;
+    }
+
+
+    .visible .img-calculator img {
+        width: 51vw;
     }
 
     .visible .img-pomodoro {
-        height: 36vh;
+        height: 48vh;
         margin-top: 10%;
+    }
+
+    .visible .img-pomodoro img {
+        width: 91vw;
+        height: 42vh;
     }
 
     .icons-contact{
         justify-content: space-around;
     }
 
+
     .margin-contact{
         margin-top: 11%;
     }
 
     .information {
-        margin-top: -10%;
+        margin-top: -11%;
     }
 
     .img-profile{
         display: none;
+    }
+
+    .text-dark{
+        text-align: center;
+
     }
 }
 
@@ -341,6 +368,10 @@ svg{
 
     .height-project{    
         margin-top: -8%;
+    }
+
+    .projects{
+        margin-top: -11%;
     }
 
     .text-dark{
@@ -352,14 +383,7 @@ svg{
         justify-content: space-around;
     }
 
-    /* .img-profile{
-        width: 21vh;
-        position: absolute;
-        left: 82%;
-        z-index: 99;
-        top: 4%;  
-        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    } */
+
 }
 
 @media only screen and (min-width:1026px) and (max-width:1438px){
@@ -377,14 +401,10 @@ svg{
         justify-content: space-around;
     }
 
-    /* .img-profile{
-        width: 23vh;
-        position: absolute;
-        left: 86%;
-        z-index: 99;
-        top: 4%;  
-        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    } */
+    .information {
+        margin-top: -8%;
+    }
+
 }
 
 @media only screen and (min-width:1439px){
@@ -406,12 +426,8 @@ svg{
         justify-content: space-around;
     }
 
-    /* .img-profile{
-        width: 27vh;
-        position: absolute;
-        left: 84%;
-        z-index: 99;
-        top: 4%;    
-        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    } */
+    .information {
+        margin-top: -6%;
+    }
+
 }

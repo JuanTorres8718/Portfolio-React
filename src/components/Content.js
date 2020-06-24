@@ -22,31 +22,31 @@ const Content = () => {
     });
 
     const handleAnimation = () => {      
-        if (document.documentElement.scrollTop > 100 && document.documentElement.scrollTop< 1000) {           
+        if (document.documentElement.scrollTop > 100 && document.documentElement.scrollTop< 700) {           
          setClassCard({about: 'about'}) 
-        }else if(document.documentElement.scrollTop > 1000 && document.documentElement.scrollTop< 1700){
+        }else if(document.documentElement.scrollTop > 700 && document.documentElement.scrollTop< 1300){
             setClassCard({
                 about: 'about',
                 tribute: 'visible'}) 
-        }else if(document.documentElement.scrollTop > 1700 && document.documentElement.scrollTop< 2450){
+        }else if(document.documentElement.scrollTop > 1300 && document.documentElement.scrollTop< 2050){
             setClassCard({
                 about: 'about',
                 tribute: 'visible',
                 technical: 'visible'}) 
-        }else if(document.documentElement.scrollTop > 2450 && document.documentElement.scrollTop< 3280){
+        }else if(document.documentElement.scrollTop > 2050 && document.documentElement.scrollTop< 2780){
             setClassCard({
                 about: 'about',
                 tribute: 'visible',
                 technical: 'visible',
                 calculator: 'visible'}) 
-        }else if(document.documentElement.scrollTop > 3280 && document.documentElement.scrollTop< 4100){
+        }else if(document.documentElement.scrollTop > 2780 && document.documentElement.scrollTop< 3500){
             setClassCard({
                 about: 'about',
                 tribute: 'visible',
                 technical: 'visible',
                 calculator: 'visible',
                 pomodoro: 'visible'})
-        }else if(document.documentElement.scrollTop > 4100 && document.documentElement.scrollTop< 5000){
+        }else if(document.documentElement.scrollTop > 3500 && document.documentElement.scrollTop< 5000){
             setClassCard({
                 about: 'about',
                 tribute: 'visible',
@@ -81,7 +81,7 @@ const Content = () => {
                     <span className="texto" style={{color: '#fff'}}>Hey i´m Juan David Torres. <br/>
                     i´m front-end designer</span>
                 </div>
-                <div className="container-fluid" >
+                <div className="container-fluid" id="about">
                 <About 
                     about= {classCard.about}
                 />
@@ -107,7 +107,7 @@ const Content = () => {
                     />
                    <hr className="m-0 line-hr" />
                 </div>
-                <div className="container-fluid " >
+                <div className="container-fluid " id="contact">
                     <Contact 
                         contact= {classCard.contact}
                     />   
