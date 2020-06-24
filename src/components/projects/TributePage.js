@@ -4,7 +4,7 @@ import tributeImg from '../../images/tribute-page.PNG';
 const TributePage = ({tribute}) => ( 
     <React.Fragment>
     <div className="d-flex align-items-center justify-content-center bg-dark height-project" id="project">
-        <h1 className=" m-0">Work</h1>
+        <h1 className=" m-0">Some of my projects..</h1>
     </div>
     <div className="tribute-page">
         <div className={`row ${tribute} bg-light m-0`}>

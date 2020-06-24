@@ -102,9 +102,9 @@ const Content = () => {
                     <Pomodoro 
                         pomodoro= {classCard.pomodoro}
                     />
-                   <hr className="m-0 line-hr" />
+                   <hr className="m-0 line-hr" id="contact" />
                 </div>
-                <div className="container-fluid " id="contact">
+                <div className="container-fluid " >
                     <Contact 
                         contact= {classCard.contact}
                     />   
