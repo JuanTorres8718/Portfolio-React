@@ -2,6 +2,10 @@ import React from 'react';
 import tributeImg from '../../images/tribute-page.PNG';
 
 const TributePage = ({tribute}) => ( 
+    <React.Fragment>
+    <div className="d-flex align-items-center justify-content-center bg-dark height-project" id="project">
+        <h1 className=" m-0">Work</h1>
+    </div>
     <div className="tribute-page">
         <div className={`row ${tribute} bg-light m-0`}>
             <div className="txt col-12 col-md-6">
@@ -17,6 +21,7 @@ const TributePage = ({tribute}) => (
             </div>
         </div>
     </div>
+    </React.Fragment>
  )
 
  

@@ -87,9 +87,6 @@ const Content = () => {
                 />
                 </div>
                 <div className="projects container-fluid p-0">
-                    <div className="d-flex align-items-center justify-content-center bg-dark height-project" id="project">
-                        <h1 className=" m-0">Work</h1>
-                    </div>
                     <TributePage 
                         tribute= {classCard.tribute}
                     />
