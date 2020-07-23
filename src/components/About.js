@@ -1,8 +1,8 @@
 import React from 'react';
 import photo from '../images/foto-perfil.jpg'
 
-const About = ({about}) =>(
-    <div className={`row bg-color vh-100 ${about}`}>
+const About = () =>(
+    <div className={`row bg-color vh-100`}>
         <img className="img-profile" src={photo} alt="profile" />
         <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <h1>About</h1>
