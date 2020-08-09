@@ -13,53 +13,53 @@ import reactImg from '../../images/react.png'
 
 const HabilitiesComponent = () => {
     return ( 
-        <div className="row col-11 m-auto pt-4">
+        <div className="row col-11 m-auto pt-4 justify-content-center">
             <div className="col-12 text-center">
-                <h2 className="text-dark" id="abilities">Abilities</h2>
+                <h2 className="text-dark" id="abilities">Habilidades</h2>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={htmlImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={htmlImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={cssImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={cssImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={javascriptImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={javascriptImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={reactImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={reactImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={laravelImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={mysqlImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={bootstrapImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={laravelImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={phpImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={bootstrapImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={gitImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={phpImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
-            <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
-                <div className="card">
-                    <img src={mysqlImg} className="img-cards" alt="pomodoro" />
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-4 mb-4">
+                <div className="card width-card">
+                    <img src={gitImg} className="img-cards-abilities" alt="pomodoro" />
                 </div>
             </div>
         </div>

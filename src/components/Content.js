@@ -17,8 +17,8 @@ const Content = () => {
             />
             <main>
                 <div className="title" id="title-init">
-                    <span className="texto" style={{color: '#fff'}}>Hey i´m Juan David Torres. <br/>
-                    i´m web developer</span>
+                    <span className="texto" style={{color: '#fff'}}>Hola soy Juan David Torres. <br/>
+                    Desarrollador web</span>
                 </div>
                 <div className="container-fluid" id="about">
                 <About />
@@ -38,7 +38,7 @@ const Content = () => {
             </main>
             <footer className="color-d information">
                 <img className="rounded mx-auto d-block" src={icon} alt="Logo" />
-                <p className="text-center text-light">All rights reserved &copy; Copyright- Juan David Torres </p>
+                <p className="text-center text-light">Todos los derechos reservados &copy; Copyright- Juan David Torres </p>
             </footer>
         </div>
      );

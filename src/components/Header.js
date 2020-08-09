@@ -13,16 +13,16 @@ const Header = ({icon}) => (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                        <a className="nav-link texto" href="#about">About</a>
+                        <a className="nav-link texto" href="#about">Acerca</a>
                 </li>
                 <li className="nav-item active">
-                    <a className="nav-link texto" href="#project">Work</a>
+                    <a className="nav-link texto" href="#project">Proyectos</a>
                 </li>
                 <li className="nav-item active">
-                    <a className="nav-link texto" href="#abilities">Abilities</a>
+                    <a className="nav-link texto" href="#abilities">Habilidades</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link texto" href="#contact-me">Contact</a>
+                    <a className="nav-link texto" href="#contact-me">Contacto</a>
                 </li>
                 </ul>
             </div>

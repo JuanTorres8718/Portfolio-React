@@ -2,17 +2,15 @@ import React from 'react';
 import photo from '../images/foto-perfil.jpg'
 
 const About = () =>(
-    <div className={`row bg-color vh-100`}>
+    <div className={`row bg-color height-about`}>
         <img className="img-profile" src={photo} alt="profile" />
         <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-            <h1>About</h1>
+            <h1>Acerca</h1>
         </div>
         <div className="info-contact d-flex justify-content-center flex-column col-12 col-md-6 bg-light text-dark h3 m-0">
-            <p>I am a web developer from Medellín</p>
-            <p>The programming is something that i like
-                also, I like to take on new challenges and learn from them</p>
-            <strong>Web developer</strong>
-            <p>Starting with basic websites where i learn use HTML,CSS and JavaScript in the SENA, then two months ago I won a scholarship which is a reactJS focused front-end web development bootcamp</p>
+            <p className="margin-p">Soy un desarrollador web, resido en Medellín</p>
+            <p>Me encanta la programación, asumir nuevos desafíos y aprender de ellos.</p>
+            <p>Inicié mi pasión comenzando con sitios web básicos donde aprendí a usar HTML, CSS y JavaScript en el SENA, hace dos meses gané una beca en Academia Geek, un bootcamp intensivo en desarrollo web front-end enfocado en reactJS.</p>
         </div>
     </div>    
   )

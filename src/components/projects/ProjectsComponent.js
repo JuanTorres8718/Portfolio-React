@@ -16,7 +16,7 @@ const ProjectsComponent = () => {
     return ( 
         <div className="row col-11 m-auto pt-4">
             <div className="col-12 text-center">
-                <h2 className="text-dark" id="project">Some Projects</h2>
+                <h2 className="text-dark" id="project">Algunos proyectos</h2>
             </div>
             <div className="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-4 mb-4">
                 <a href="https://juantorres8718.github.io/pomodoro-Clock/" target="_blank" rel="noopener noreferrer" className="a-style">
