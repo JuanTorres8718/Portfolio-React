@@ -9,7 +9,7 @@ const Contact = () => (
         </div>
         <div className="info-contact col-12 col-md-6 bg-light text-dark h3 d-flex justify-content-center flex-column m-0">
             <p>Si deseas que trabajemos en la creación de una experiencia increíble para las personas, contáctame.</p>
-            <p>Estoy disponible para empleo a tiempo completo o proyectos independientes.</p>
+            <p>Estoy disponible para proyectos independientes.</p>
             <strong>Juan David Torres</strong>
             <a href="/">jdtorres8718@gmail.com</a>
             <div className="row icons-contact">
